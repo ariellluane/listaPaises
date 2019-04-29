@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout   xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome do País"
+        android:textColor="@color/colorAccent"/>
+
+    <TextView
+        android:id="@+id/latitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nome"
+        android:layout_marginTop="10dp"
+        android:text="Latitude:"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/longitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nome"
+        android:layout_marginTop="30dp"
+        android:text="Longitude:"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/alpha2Code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nome"
+        android:layout_marginTop="50dp"
+        android:text="Alpha Code 1:"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/alpha3Code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nome"
+        android:layout_marginTop="70dp"
+        android:text="Alpha Code 2:"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/capital"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nome"
+        android:layout_marginTop="90dp"
+        android:text="Capital:"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/region"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nome"
+        android:layout_marginTop="110dp"
+        android:text="Região:"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/subregion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nome"
+        android:layout_marginTop="130dp"
+        android:text="Subregião:"
+        android:textSize="12sp" />
+    <TextView
+        android:id="@+id/population"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nome"
+        android:layout_marginTop="150dp"
+        android:text="População:"
+        android:textSize="12sp" />
+    <TextView
+        android:id="@+id/demonym"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nome"
+        android:layout_marginTop="170dp"
+        android:text="Demonym:"
+        android:textSize="12sp" />
+    <TextView
+        android:id="@+id/area"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nome"
+        android:layout_marginTop="190dp"
+        android:text="Area:"
+        android:textSize="12sp" />
+    <TextView
+        android:id="@+id/gini"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nome"
+        android:layout_marginTop="210dp"
+        android:text="Gini:"
+        android:textSize="12sp" />
+    <TextView
+        android:id="@+id/nativename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nome"
+        android:layout_marginTop="230dp"
+        android:text="Native name:"
+        android:textSize="12sp" />
+    <TextView
+        android:id="@+id/numericcode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nome"
+        android:layout_marginTop="250dp"
+        android:text="Numeric Code:"
+        android:textSize="12sp" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/grey"/>
+</RelativeLayout>
